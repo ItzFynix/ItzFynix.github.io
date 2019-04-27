@@ -1,16 +1,17 @@
 /* Custom Fonts */
 	/* Importing of fonts */
 	@font-face {
-		    font-family: 'adventureregular';
+		font-family: 'adventureregular';
     		src: url('fonts/adventure-webfont.woff2') format('woff2'),
-         		 url('fonts/adventure-webfont.woff') format('woff');
+         	     url('fonts/adventure-webfont.woff') format('woff');
     		font-weight: normal;
     		font-style: normal;
 	}
 	/* Application of fonts */
-	h1 {
+	h1, p {
 		font-family: 'adventureregular', Arial, sans-serif;
 	}
-	p {
-		font-family: 'adventureregular', Arial, sans-serif;
-	}
+/* Alignment */
+h1, p {
+	align=center
+}
