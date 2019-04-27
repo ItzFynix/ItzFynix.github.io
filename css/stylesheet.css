@@ -11,7 +11,15 @@
 	h1, p {
 		font-family: 'adventureregular', Arial, sans-serif;
 	}
-/* Alignment */
-h1, p {
-	text-align:center
-}
+/* Text Adjustments */
+	/* Alignment */
+	h1, p {
+		text-align: center;
+	}
+	/* Size */
+	h1 {
+		font-size: 100px;
+	}
+	p {
+		font-size: 75px;
+	}
