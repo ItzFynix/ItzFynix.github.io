@@ -4,8 +4,8 @@
 
 @font-face {
     font-family: 'adventureregular';
-    src: url('adventure-webfont.woff2') format('woff2'),
-         url('adventure-webfont.woff') format('woff');
+    src: url(itzfynix.github.io/css/fonts/adventure-webfont.woff2) format('woff2'),
+         url(itzfynix.github.io/css/fonts/adventure-webfont.woff) format('woff');
     font-weight: normal;
     font-style: normal;
 
