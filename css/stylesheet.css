@@ -1,7 +1,18 @@
-@font-face {
-    font-family: 'adventureregular';
-    src: url(itzfynix.github.io/css/fonts/adventure-webfont.woff2) format('woff2'),
-         url(itzfynix.github.io/css/fonts/adventure-webfont.woff) format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+/* Custom Fonts */
+	/* Importing of fonts */
+	@font-face {
+		    font-family: 'Adventure';
+    		src: url(itzfynix.github.io/css/fonts/adventure-webfont.woff2) format('woff2'),
+         		 url(itzfynix.github.io/css/fonts/adventure-webfont.woff) format('woff');
+    		font-weight: normal;
+    		font-style: normal;
+	}
+	/* Application of fonts */
+	h1 {
+		h1 {
+		font-family: 'Adventure', Arial, sans-serif;
+	}
+	p {
+		p {
+		font-family: 'Adventure', Arial, sans-serif;
+	}
