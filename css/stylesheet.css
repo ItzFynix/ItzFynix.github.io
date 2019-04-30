@@ -1,26 +1,42 @@
 /* Defaults 
 font-family: 'Titillium Web', sans-serif;
-font-family: 'adventureregular', Arial, sans-serif;
+font-family: 'Adventure', Arial, sans-serif;
 font-family: 'Just Another Hand', cursive;
 */
+/* Backgrounds */
+body {
+	background-color: #ff4000}
+	}
+div.intro {
+	background-color: black
+}
 /* Fonts */
 	/* Importing of fonts */
 		/* Custom fonts */
 		@font-face {
-			font-family: 'adventureregular';
-    			src: url('fonts/adventure-webfont.woff2') format('woff2'),
-         	     	 url('fonts/adventure-webfont.woff') format('woff');
+			font-family: 'Adventure';
+    			src: url('fonts/adventure/Adventure-Regular.otf');
     			font-weight: normal;
     			font-style: normal;
 		}
-		/* Imported fonts */
-		@import url('https://fonts.googleapis.com/css?family=Just+Another+Hand|Titillium+Web');
+		@font-face {
+			font-family: 'Just Another Hand';
+    			src: url('fonts/just-another-hand/Just_Another_Hand-Regular.ttf');
+    			font-weight: normal;
+    			font-style: normal;
+		}
+		@font-face {
+			font-family: 'Titillium Web Regular';
+    			src: url('fonts/titillium_web/TitilliumWeb-Regular.ttf');
+    			font-weight: normal;
+    			font-style: normal;
+		}
 	/* Application of fonts */
 	.headings {
-		font-family: 'adventureregular', Arial, sans-serif;
+		font-family: 'Adventure', Arial, sans-serif;
 	}
 	p {
-    	font-family: 'Just Another Hand', cursive;
+    	font-family: 'Just Another Hand', 'Titillium Web', cursive;
 	}
 /* Text Adjustments */
 	/* Alignment */
@@ -50,3 +66,7 @@ font-family: 'Just Another Hand', cursive;
 	div.headings {
 		line-height: 20px;
 	}
+	/* Color */
+	p.intro {
+		color: black
+		background-color: transparent;
