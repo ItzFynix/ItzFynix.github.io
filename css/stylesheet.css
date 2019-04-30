@@ -9,7 +9,7 @@ font-family: 'Just Another Hand', cursive;
 		@font-face {
 			font-family: 'adventureregular';
     			src: url('fonts/adventure-webfont.woff2') format('woff2'),
-         	     	url('fonts/adventure-webfont.woff') format('woff');
+         	     	 url('fonts/adventure-webfont.woff') format('woff');
     			font-weight: normal;
     			font-style: normal;
 		}
@@ -20,7 +20,7 @@ font-family: 'Just Another Hand', cursive;
 		font-family: 'adventureregular', Arial, sans-serif;
 	}
 	p {
-    		font-family: 'Just Another Hand', cursive;
+    	font-family: 'Just Another Hand', cursive;
 	}
 /* Text Adjustments */
 	/* Alignment */
@@ -31,24 +31,22 @@ font-family: 'Just Another Hand', cursive;
 		text-align: center;
 	}
 	/* Size */
+	p.headings {
+		font-size: 50px;
+	}
 	h1 {
 		font-size: 100px;
 	}
 	h2 {
-		font-size: 90px;
-	}
-	h3 {
 		font-size: 80px;
 	}
-	h4 {
-		font-size: 70px;
-	}
-	h5 {
+	h3 {
 		font-size: 60px;
-	}
-	h6 {
-		font-size: 50px;
 	}
 	p {
 		font-size: 40px;
+	}
+	/* Line height */
+	div.headings {
+		line-height: 20px;
 	}
