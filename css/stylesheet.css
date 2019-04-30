@@ -1,5 +1,7 @@
 /* Defaults 
-font-family: 'Titillium Web', sans-serif; 
+font-family: 'Titillium Web', sans-serif;
+font-family: 'adventureregular', Arial, sans-serif;
+font-family: 'Just Another Hand', cursive;
 */
 /* Fonts */
 	/* Importing of fonts */
@@ -12,8 +14,7 @@ font-family: 'Titillium Web', sans-serif;
     			font-style: normal;
 		}
 		/* Imported fonts */
-		@import url('https://fonts.googleapis.com/css?family=Just+Another+Hand),
-		@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+		@import url('https://fonts.googleapis.com/css?family=Just+Another+Hand|Titillium+Web');
 	/* Application of fonts */
 	h1, h2 {
 		font-family: 'adventureregular', Arial, sans-serif;
