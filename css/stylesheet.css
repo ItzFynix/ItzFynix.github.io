@@ -16,7 +16,7 @@ font-family: 'Just Another Hand', cursive;
 		/* Imported fonts */
 		@import url('https://fonts.googleapis.com/css?family=Just+Another+Hand|Titillium+Web');
 	/* Application of fonts */
-	h1, h2 {
+	.headings {
 		font-family: 'adventureregular', Arial, sans-serif;
 	}
 	p {
