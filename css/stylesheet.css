@@ -27,6 +27,9 @@ font-family: 'Just Another Hand', cursive;
 	h1 {
 		text-align: center;
 	}
+	.headings {
+		text-align: center;
+	}
 	/* Size */
 	h1 {
 		font-size: 100px;
