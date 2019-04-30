@@ -1,25 +1,50 @@
-/* Custom Fonts */
+/* Defaults 
+font-family: 'Titillium Web', sans-serif; 
+*/
+/* Fonts */
 	/* Importing of fonts */
-	@font-face {
-		font-family: 'adventureregular';
-    		src: url('fonts/adventure-webfont.woff2') format('woff2'),
-         	     url('fonts/adventure-webfont.woff') format('woff');
-    		font-weight: normal;
-    		font-style: normal;
-	}
+		/* Custom fonts */
+		@font-face {
+			font-family: 'adventureregular';
+    			src: url('fonts/adventure-webfont.woff2') format('woff2'),
+         	     	url('fonts/adventure-webfont.woff') format('woff');
+    			font-weight: normal;
+    			font-style: normal;
+		}
+		/* Imported fonts */
+		@import url('https://fonts.googleapis.com/css?family=Just+Another+Hand); 
+		@import url('https://fonts.googleapis.com/css?family=Titillium+Web'); /* font-family: 'Titillium Web', sans-serif; */
 	/* Application of fonts */
 	h1, h2 {
 		font-family: 'adventureregular', Arial, sans-serif;
 	}
+	p {
+    		font-family: 'Just Another Hand', cursive;
+	}
 /* Text Adjustments */
 	/* Alignment */
-	h1, p {
+	h1 {
 		text-align: center;
 	}
 	/* Size */
 	h1 {
-		font-size: 80px;
+		font-size: 100px;
 	}
 	h2 {
+		font-size: 90px;
+	}
+	h3 {
+		font-size: 80px;
+	}
+	h4 {
+		font-size: 70px;
+	}
+	h5 {
+		font-size: 60px;
+	}
+	h6 {
 		font-size: 50px;
+	}
+	p {
+		font-size: 40px;
 	}
