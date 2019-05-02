@@ -1,13 +1,14 @@
 /* Backgrounds */
 body {
 	background-color: #ff4000;
+	margin: none;
 }
 #intro {
 	background-color: black;
-	width: 100%;
 	border-style: solid;
 	border-color: black;
 	border-radius: 10px;
+	margin: auto;
 }
 #headings {
 	border-bottom: 3px solid black;
