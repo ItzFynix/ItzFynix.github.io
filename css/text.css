@@ -1,6 +1,6 @@
 /* Text Adjustments */
 	/* Alignment */
-	h1, .headings, p.intro {
+	.headings, p.intro, #navbar button {
 		text-align: center;
 	}
 	/* Size */
@@ -19,12 +19,15 @@
 	p {
 		font-size: 40px;
 	}
+	#navbar button {
+		font-size: 25px;
+	}
 	/* Line height */
-	div.headings {
+	#headings {
 		line-height: 20px;
 	}
 	/* Color */
-	p.intro, p.description {
+	p.text, p.intro{
 		color: #ff4000;
 		background-color: transparent;
 		margin-top: auto;
@@ -33,6 +36,6 @@
 		margin-bottom: auto;
 	}
 	/* Weight */
-	p.intro {
+	#intro p.intro {
 		font-weight: bold;
 	}

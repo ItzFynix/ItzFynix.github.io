@@ -2,13 +2,33 @@
 body {
 	background-color: #ff4000;
 }
-div.headings{
-	border-bottom: 5px solid black;
-}
-div.intro {
+#intro {
 	background-color: black;
 	width: 100%;
 	border-style: solid;
 	border-color: black;
 	border-radius: 10px;
+}
+#headings {
+	border-bottom: 3px solid black;
+}
+/* Navbar */
+#navbar {
+	background-color: black;
+	margin: auto;
+	overflow: auto;
+}
+#navbar button {
+	background-color: transparent;
+	color: #ff4000;
+	border: none;
+	width: 25%;
+	margin: auto;
+	float: left;
+	padding: 2px;
+}
+#navbar button:hover {
+	background-color: #ff4000;
+	color: black;
+	cursor: pointer;
 }
